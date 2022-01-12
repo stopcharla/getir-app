@@ -5,10 +5,10 @@ const pick = require('../utils/pick');
 
 const fetchRecords = {
   body: Joi.object().keys({
-    startDate: Joi.date(),
-    endDate: Joi.date().min(Joi.ref('startDate')),
+    startDate: Joi.date().iso(),
+    endDate: Joi.date().iso(),
     minCount: Joi.number().integer(),
-    maxCount: Joi.number().integer().min(Joi.ref('minCount')),
+    maxCount: Joi.number().integer(),
   }),
 };
 
