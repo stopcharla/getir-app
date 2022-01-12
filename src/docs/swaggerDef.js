@@ -9,7 +9,7 @@ const swaggerDef = {
   },
   servers: [
     {
-      url: 'https://afternoon-tundra-22890.herokuapp.com/',
+      url: 'https://afternoon-tundra-22890.herokuapp.com/v1',
     },
     {
       url: `http://localhost:${config.port}/v1`,
