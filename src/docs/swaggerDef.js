@@ -8,9 +8,9 @@ const swaggerDef = {
     version,
   },
   servers: [
-    // {
-    //   url: 'https://stopcharla-getir-app.herokuapp.com/v1',
-    // },
+    {
+      url: 'https://afternoon-tundra-22890.herokuapp.com/',
+    },
     {
       url: `http://localhost:${config.port}/v1`,
     },
